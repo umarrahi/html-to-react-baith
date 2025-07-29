@@ -1,8 +1,10 @@
 import './App.css'
-import Features from './components/Features'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import Newsletter from './components/Newsletter'
+import FAQ from './pages/FAQ'
+import Features from './pages/Features'
+import Footer from './components/layouts/Footer'
+import Hero from './pages/Hero'
+import Navbar from './components/layouts/Navbar'
+import Newsletter from './components/layouts/Newsletter'
 
 function App() {
 
@@ -12,8 +14,9 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <FAQ />
       <Newsletter />
-      <footer />
+      <Footer />
     </div>
   )
 }
