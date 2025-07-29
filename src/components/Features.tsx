@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Features = () => {
   return (
    <section className="bg-white dark:bg-gray-900">
@@ -146,4 +144,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default Features;

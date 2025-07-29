@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Footer = () => {
     return (
         <footer className="bg-white dark:bg-gray-900">
@@ -186,4 +184,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
